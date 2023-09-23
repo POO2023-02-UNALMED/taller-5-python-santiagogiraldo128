@@ -20,8 +20,8 @@ class Animal():
     
     @classmethod
     def totalPorTipo(cls):
-        return "Mamiferos: " + str(cls.Mamiferos) + "\n" + "Aves: " + str(cls.Aves) + "\n" + "Reptiles: " + str(cls.Reptiles) + "\n" + "Peces: " + str(cls.Peces) + "\n" + "Anfibios: " + str(cls.Anfibios)
-    
+            return "Mamiferos : "+str(cls.Mamiferos)+"\n" + "Aves : "+str(cls.Aves)+"\n" + "Reptiles : "+str(cls.Reptiles)+"\n" + "Peces : "+str(cls.Peces)+"\n" + "Anfibios : "+str(cls.Anfibios)
+
 
     def toString(self):
         cadena = "Mi nombre es " + self._nombre + ", tengo una edad de " + str(self._edad) + ", habito en " + self._habitat + " y mi genero es " + self._genero
